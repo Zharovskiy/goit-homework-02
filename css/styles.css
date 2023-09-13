@@ -40,11 +40,16 @@ a {
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo-black {
     color: #2E2F42;
 }
-.logo-color {
-    color: #4D5AE5;
+.logo-white {
+    color: #F4F4FD;
 }
 
 /* Menu header */
@@ -58,8 +63,10 @@ a {
 }
 
 /* Contacts header */
-.address-link {
+.address {
     font-style: normal;
+}
+.address-link {
     color: #434455;
 }
 .address-link:hover,
@@ -75,20 +82,22 @@ a {
 .hero-image-text {
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
     text-align: center;
     color: #FFF;
 }
 
 .hero-image-button {
+    font-family: Roboto, sans-serif;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #FFF;
     background-color: #4D5AE5;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .hero-image-button:hover,
@@ -103,6 +112,7 @@ a {
 
 .team-text {
     text-align: center;
+    line-height: 1.11;
 }
 
 .team-speciality {
@@ -119,9 +129,5 @@ a {
 /* Footer */
 .footer {
     background-color: #2E2F42;
-}
-
-.logo-color-bottom,
-.footer-text {
     color: #F4F4FD;
 }
