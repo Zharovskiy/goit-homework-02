@@ -104,3 +104,24 @@ a {
 .team-text {
     text-align: center;
 }
+
+.team-speciality {
+    background-color: #FFF;
+}
+
+/* Section 4 */
+.portfolio {
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: #2E2F42;
+}
+
+.logo-color-bottom,
+.footer-text {
+    color: #F4F4FD;
+}
